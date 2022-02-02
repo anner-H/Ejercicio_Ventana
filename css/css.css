@@ -1,0 +1,53 @@
+body{
+    background-color: darkcyan;
+}
+
+.nombre{
+    font-family: sans-serif;
+    font-size: 25px;
+    float: left;
+    padding-top: 20px;
+    margin: -50px 0px 0px 20px;
+    color: aliceblue;
+}
+
+.barra{
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    border-radius: 5px 5px 0px 0px;
+}
+.barra img{
+    width: 25px;
+    float: right;
+    margin: 6px 5px 7px 9px;
+    cursor: pointer;
+}
+
+.ventana{
+    width: 100%;
+    height: 355px;
+}
+.ventana h2{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: rgb(27, 27, 27);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.basee{
+    width: 600px;
+    height: 400px;
+    background-color: rgba(253, 251, 251, 0.836);
+    border: 1px solid rgb(209, 209, 209);
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.46);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.46);
+
+    box-sizing: border-box;
+}
